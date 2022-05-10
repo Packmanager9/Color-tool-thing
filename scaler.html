@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+            <head>
+                    <!-- <link rel="stylesheet" href="styles.css"> -->
+                  </head>
+        <body>
+            
+            <canvas id="canvas" width="700" height="700" ></canvas>
+
+            <div>
+                    <input step="1"type="range" min="0" max="255" value="128" class="slider-squarex"id="minr"> 
+                    <label for="retention">Red Threshold</label>
+            </div>
+            <div>
+                    <input step="1"type="range" min="0" max="255" value="128" class="slider-squarex"id="ming"> 
+                    <label for="retention">Green Threshold</label>
+            </div>
+            <div>
+                    <input step="1"type="range" min="0" max="255" value="128" class="slider-squarex"id="minb"> 
+                    <label for="retention">Blue Threshold</label>
+            </div>
+            <div>
+                    <input step="1"type="range" min="0" max="255" value="128" class="slider-squarex"id="maxr"> 
+                    <label for="retention">Red Snaps To</label>
+            </div>
+            <div>
+                    <input step="1"type="range" min="0" max="255" value="128" class="slider-squarex"id="maxg"> 
+                    <label for="retention">Green Snaps To</label>
+            </div>
+            <div>
+                    <input step="1"type="range" min="0" max="255" value="128" class="slider-squarex"id="maxb"> 
+                    <label for="retention">Blue Snaps To</label>
+            </div>
+            <div>
+                    <input step="1"type="range" min="0" max="1" value="128" class="slider-squarex"id="ab"> 
+                    <label for="retention">Normal/abnormal</label>
+            </div>
+            <script src="scaler.js"></script>
+            <p><a href=" http://ditzbitz.com/games.html">Games List</a></p>
+            <input type="file" name="file" id="file">
+<button  hidden id="yes" name="submit">Upload File</button>
+            </body>
+            
+    </html>
